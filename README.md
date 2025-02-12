@@ -1,68 +1,65 @@
-# <a href="https://hf.co/learn/agents-course" target="_blank">The Hugging Face Agents Course</a>
+# <a href="https://hf.co/learn/agents-course" target="_blank">Le cours sur les Agents de Hugging Face</a>
 
-If you like the course, **don't hesitate to ⭐ star this repository**. This helps us to **make the course more visible 🤗**.
+Si vous aimez le cours, **n'hésitez pas à ⭐ étoiler ce dépôt**. Cela nous aide à **rendre le cours plus visible 🤗**.
 
-<img src="https://huggingface.co/datasets/agents-course/course-images/resolve/main/en/communication/please_star.gif" alt="Star the repo" />
+<img src="https://huggingface.co/datasets/agents-course/course-images/resolve/main/en/communication/please_star.gif" alt="Étoilez le repo" />
 
-## Content
+## Contenu
 
-The course is divided into 5 units. These will take you from **the basics of agents to a final assignment with a benchmark**.
+Le cours est divisé en 5 unités. Celles-ci vous mèneront des **bases des agents à un projet final avec un benchmark**.
 
-Sign up here (it's free) 👉 <a href="https://bit.ly/hf-learn-agents" target="_blank">https://bit.ly/hf-learn-agents</a>
+Inscrivez-vous ici (c'est gratuit) 👉 <a href="https://bit.ly/hf-learn-agents" target="_blank">https://bit.ly/hf-learn-agents</a>
 
-You can access the course here 👉 <a href="https://hf.co/learn/agents-course" target="_blank">https://hf.co/learn/agents-course</a>
+Vous pouvez accéder au cours ici 👉 <a href="https://hf.co/learn/agents-course" target="_blank">https://hf.co/learn/agents-course</a>
 
-| Unit | Topic                          | Description                                                                 |
-|------|--------------------------------|-----------------------------------------------------------------------------|
-| 0    | [Welcome to the Course](https://huggingface.co/learn/agents-course/en/unit0/introduction) | Welcome, guidelines, necessary tools, and course overview.                  |
-| 1    | [Introduction to Agents](https://huggingface.co/learn/agents-course/en/unit1/introduction)       | Definition of agents, LLMs, model family tree, and special tokens.          |
-| 2    | [2_frameworks](units/en/unit2/README.md)                     | Overview of smolagents, LangChain, LangGraph, and LlamaIndex.               |
-| 3    | [3_use_cases](units/en/unit3/README.md)                      | SQL, code, retrieval, and on-device agents using various frameworks.        |
-| 4    | [4_final_assignment_with_benchmark](units/en/unit4/README.md) | Automated evaluation of agents and leaderboard with student results.        |
+| Unité | Sujet                          | Description                                                                 |
+|-------|--------------------------------|-----------------------------------------------------------------------------|
+| 0     | [Bienvenue dans le cours](https://huggingface.co/learn/agents-course/en/unit0/introduction) | Bienvenue, directives, outils nécessaires et aperçu du cours.               |
+| 1     | [Introduction aux agents](https://huggingface.co/learn/agents-course/en/unit1/introduction)       | Définition des agents, modèles de langage (LLMs), arbre généalogique des modèles et tokens spéciaux. |
+| 2     | [2_frameworks](units/en/unit2/README.md)                     | Présentation de smolagents, LangChain, LangGraph et LlamaIndex.              |
+| 3     | [3_use_cases](units/en/unit3/README.md)                      | SQL, code, recherche et agents intégrés dans divers frameworks.             |
+| 4     | [4_final_assignment_with_benchmark](units/en/unit4/README.md) | Évaluation automatisée des agents et tableau de classement avec les résultats des étudiants. |
 
+## Prérequis
 
-## Prerequisites
+- Connaissance de base de Python
+- Connaissance de base des modèles de langage (LLMs)
 
-- Basic knowledge of Python
-- Basic knowledge of LLMs
+## Directives de contribution
 
-## Contribution Guidelines
+Si vous souhaitez contribuer à ce cours, vous êtes les bienvenus. N'hésitez pas à ouvrir un ticket ou à rejoindre la discussion sur [Discord](https://discord.gg/UrrTSsSyjb). Pour des contributions spécifiques, voici quelques directives :
 
-If you want to contribute to this course, you're welcome to do so. Feel free to open an issue or join the discussion in the [Discord](https://discord.gg/UrrTSsSyjb). For specific contributions, here are some guidelines:
+### Petites corrections de typographie et de grammaire
 
-### Small typo and grammar fixes
+Si vous trouvez une petite faute de frappe ou une erreur grammaticale, veuillez la corriger vous-même et soumettre une pull request. Cela est très utile pour les étudiants.
 
-If you find a small typo or grammar mistake, please fix it yourself and submit a pull request. This is very helpful for students.
+### Nouvelle unité
 
-### New unit
+Si vous souhaitez ajouter une nouvelle unité, **veuillez créer un ticket dans le dépôt, décrire l'unité et expliquer pourquoi elle devrait être ajoutée**. Nous en discuterons et si c'est une bonne addition, nous pourrons collaborer dessus.
 
-If you want to add a new unit, **please create an issue in the repository, describe the unit, and why it should be added**. We will discuss it and if it's a good addition, we can collaborate on it.
+### Travail sur des unités existantes
 
-### Work on existing units
+Nous travaillons activement sur les unités et si vous voulez nous rejoindre, nous trouverons une place pour vous dans notre flux de travail. Voici un aperçu des espaces où nous sommes ouverts à la collaboration :
 
-We are actively working on the units and if you want to join us, we will need to find a place in the workflow. Here's an overview of where we are open to collaboration:
+| Unité | Statut         | Contributions                                                          |
+|-------|---------------|------------------------------------------------------------------------|
+| 0     | ✅ Complète     | Corrections de bugs et améliorations uniquement                       |
+| 1     | 🚧 En cours     | Le travail est en cours, pas besoin d'aide pour le contenu            |
+| 2     | 🚧 En cours     | Si vous êtes contributeur d'un framework, nous sommes ouverts aux contributions et aux revues |
+| 3     | 🗓️ Planifiée    | Si vous avez de l'expérience avec les agents, nous acceptons de l'aide pour les cas d'utilisation |
+| 4     | 🚧 En cours     | Le travail est en cours, pas besoin d'aide pour l'intégration         |
 
-| Unit | Status        | Contributions                                                          |
-|------|--------------|------------------------------------------------------------------------|
-| 0    | ✅ Complete    | Bug fixes and improvements only                                        |
-| 1    | 🚧 In Progress | Work is underway, no need for help with content                         |
-| 2    | 🚧 In Progress | If you're a contributor to a framework, we're open to contributions and reviews |
-| 3    | 🗓️ Planned    | If you're experienced with agents, we're open to help with use cases |
-| 4    | 🚧 In Progress | Work is underway, no need for help with integration                         |
+En cas de doute, rejoignez la discussion sur [Discord](https://discord.gg/UrrTSsSyjb).
 
-If in doubt, join the discussion in the [Discord](https://discord.gg/UrrTSsSyjb).
+## Citer le projet
 
-
-## Citing the project
-
-To cite this repository in publications:
+Pour citer ce dépôt dans des publications :
 
 ```bibtex
 @misc{agents-course,
   author = {Burtenshaw, Ben and Thomas, Joffrey and Simonini, Thomas},
-  title = {The Hugging Face Agents Course},
+  title = {Le cours sur les Agents de Hugging Face},
   year = {2025},
   howpublished = {\url{https://github.com/huggingface/agents-course}},
-  note = {GitHub repository},
+  note = {Dépôt GitHub},
 }
-```
